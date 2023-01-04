@@ -26,7 +26,9 @@ Su aplicación debería verse de la siguiente manera:
 
 ## Consignas
 
-Debe convertir todo el código que se encuentra armado con clases en la carpeta `tablero_components` a código con funciones.
+En la carpeta `tablero_components` hay dos componentes realizados con clases `Equipo.jsx` y `Tablero.jsx`.
+
+- Deben convertir estos componentes de clases en componentes de función.
 
 Resultado final:
 
@@ -35,7 +37,5 @@ Resultado final:
 ---
 
 ---
-
-En la carpeta "Resolución" van a encontrar la resolución del ejercicio. Valga la redundancia.
 
 [Subir al índice](#top)
