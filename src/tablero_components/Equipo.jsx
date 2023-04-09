@@ -1,16 +1,12 @@
-import { Component } from "react";
-
-class Equipo extends Component {
-  render() {
-    return (
+function Equipo({ title,contador,bandera }) {
+  return (
       <div className="tablero_cabecera">
-        <h3>{ this.props.title }</h3>
-        <h3>{ this.props.contador }</h3>
+        <h3>{ title }</h3>
+        <h3>{ contador }</h3>
 
-        <img className='img_sel' src={ this.props.bandera } alt="" />
+        <img className='img_sel' src={ bandera } alt="" />
       </div>
-    )
-  }
+  )
 }
 
 export default Equipo;
